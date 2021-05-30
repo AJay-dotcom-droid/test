@@ -21,3 +21,11 @@ while(i <= num):
     print(i,num)
 i = i + 1
 avg = 
+
+4)        
+sen = input('Enter a string: ')
+for x in sen:
+    if( x == 'a' or x=='e' or x=='i' or x=='o' or x=='u'):
+        print(',',x,end = (' '))
+    else:
+        print(x,end=(' '))
