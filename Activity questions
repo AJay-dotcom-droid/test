@@ -29,3 +29,6 @@ for x in sen:
         print(',',x,end = (' '))
     else:
         print(x,end=(' '))
+6)for x in range(1,7):
+    print(f'current number is : {x} and the cube is {x**3}')
+        
